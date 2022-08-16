@@ -10,3 +10,5 @@ Solutions for the exercises SPA module
 6. Browser/DOM Toggle Items
 7. Modules - Basics
 8. Modules - Import / export
+9. Browser/DOM - Weekend countdown
+10. Browser/DOM - Hidden Message with delegation
