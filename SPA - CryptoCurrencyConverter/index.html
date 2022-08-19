@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Currency Converter</title>
+	</head>
+	<body>
+		<header>
+			<h1>Currency Coverter</h1>
+		</header>
+		<main>
+			<form action="" id="form" class="form">
+				<div class="convert__from">
+					<label for="inputSelector">Crypto-currency</label>
+					<select
+						class="select__items field__entry"
+						id="select__first"
+					>
+						<option selected>Choose...</option>
+						<option value="usd">USD</option>
+						<option value="eur">EUR</option>
+						<option value="gbp">GBP</option>
+					</select>
+					<input
+						type="number"
+						class="input__from"
+						id="input__from"
+						placeholder="Put here the amount"
+					/>
+				</div>
+				<div class="convert__to">
+					<label for="inputSelector">Currency</label>
+					<select
+						class="select__items field__output"
+						id="select__second"
+					>
+						<option selected>Choose...</option>
+						<option value="usd">USD</option>
+						<option value="eur">EUR</option>
+						<option value="gbp">GBP</option>
+					</select>
+					<input
+						type="number"
+						class="output"
+						id="output"
+						placeholder="..."
+					/>
+				</div>
+				<button type="submit" class="btn">Convert</button>
+			</form>
+		</main>
+		<script src="index.js"></script>
+	</body>
+</html>

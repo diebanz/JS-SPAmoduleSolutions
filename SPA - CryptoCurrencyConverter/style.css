@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+body {
+	background-color: #f5f5dc;
+	font-size: 1.6rem;
+	font-family: "Roboto", sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+header {
+	margin: 5rem 0;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-decoration: underline;
+}
+
+main {
+	padding: 3rem;
+	box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
+	border-radius: 1rem;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.convert__from,
+.convert__to {
+	width: 50rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	margin: 2rem 0;
+}
+
+label {
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	margin-bottom: 1rem;
+}
+
+select {
+	width: 90%;
+	padding: 1rem;
+	font-size: 1.8rem;
+	border: none;
+	box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+	border-radius: 0.5rem;
+	color: #666;
+}
+
+input {
+	width: 90%;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.btn {
+	cursor: pointer;
+	margin-top: 4rem;
+	display: inline-block;
+	padding: 2rem 6rem;
+	background-color: #5f9ea0;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-radius: 1rem;
+	box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+	transform: scale(0.98);
+}
